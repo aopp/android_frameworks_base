@@ -330,6 +330,7 @@
          [CHAR LIMIT=20] -->
   <!-- Notification text: when GPS is getting a fix [CHAR LIMIT=50] -->
   <!-- Notification text: when GPS has found a fix [CHAR LIMIT=50] -->
+  <string name="gps_notification_found_text">Allugamientu afitáu pol GPS</string>
   <!-- Accessibility text describing the presence of active location requests by one or more apps -->
   <!-- Content description of the clear button in the notification panel for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
   <string name="accessibility_clear_all">Llimpiar tolos avisos.</string>
@@ -347,8 +348,11 @@
          for its own notifications [CHAR LIMIT=NONE] -->
   <string name="status_bar_notification_app_settings_title">Axustes de <xliff:g id="app_name" example="Calendar">%s</xliff:g></string>
   <!-- Description of the button in the phone-style notification panel that controls auto-rotation, when auto-rotation is on. [CHAR LIMIT=NONE] -->
+  <string name="accessibility_rotation_lock_off">La pantalla voltiará automáticamente.</string>
   <!-- Description of the button in the phone-style notification panel that controls auto-rotation, when auto-rotation is off. [CHAR LIMIT=NONE] -->
+  <string name="accessibility_rotation_lock_on_landscape">La pantalla ta bloquiada en mou horizontal.</string>
   <!-- Description of the button in the phone-style notification panel that controls auto-rotation, when auto-rotation is off. [CHAR LIMIT=NONE] -->
+  <string name="accessibility_rotation_lock_on_portrait">La pantalla ta bloquiada en mou vertical.</string>
   <!-- Announcement made when the screen is rotating automatically again (not shown on the screen). [CHAR LIMIT=NONE] -->
   <!-- Announcement made when the rotation lock state changes to landscape only (not shown on the screen). [CHAR LIMIT=NONE] -->
   <!-- Announcement made when the rotation lock state changes to portrait only (not shown on the screen).  [CHAR LIMIT=NONE] -->
@@ -408,6 +412,7 @@
   <!-- QuickSettings: Wifi (Off) [CHAR LIMIT=NONE] -->
   <!-- QuickSettings: Wifi (On) [CHAR LIMIT=NONE] -->
   <!-- QuickSettings: Wifi detail panel, text when there are no items [CHAR LIMIT=NONE] -->
+  <string name="quick_settings_wifi_detail_empty_text">Nun hai redes Wi-Fi disponibles</string>
   <!-- QuickSettings: Cast title [CHAR LIMIT=NONE] -->
   <!-- QuickSettings: Cast detail panel, status text when casting [CHAR LIMIT=NONE] -->
   <!-- QuickSettings: Cast detail panel, default device name [CHAR LIMIT=NONE] -->
@@ -419,6 +424,7 @@
   <!-- QuickSettings: Brightness dialog auto brightness button [CHAR LIMIT=NONE] -->
   <string name="quick_settings_brightness_dialog_auto_brightness_label">AUTO</string>
   <!-- QuickSettings: Label for the toggle that controls whether display inversion is enabled. [CHAR LIMIT=NONE] -->
+  <string name="quick_settings_inversion_label">Invertir colores</string>
   <!-- QuickSettings: Label for the toggle that controls whether display color correction is enabled. [CHAR LIMIT=NONE] -->
   <string name="quick_settings_color_space_label">Mou de correición de color</string>
   <!-- QuickSettings: Control panel: Label for button that navigates to settings. [CHAR LIMIT=NONE] -->
@@ -452,8 +458,10 @@
   <!-- QuickSettings: Summary for the toggle to deactivate Night display when it's on (renamed "Night Light" with title caps). [CHAR LIMIT=NONE] -->
   <!-- QuickSettings: Label for the toggle to activate Night display when it's off (renamed "Night Light" with title caps). [CHAR LIMIT=NONE] -->
   <!-- QuickSettings: NFC tile [CHAR LIMIT=NONE] -->
+  <string name="quick_settings_nfc_label">NFC</string>
   <!-- QuickSettings: NFC (off) [CHAR LIMIT=NONE] -->
   <!-- QuickSettings: NFC (on) [CHAR LIMIT=NONE] -->
+  <string name="quick_settings_nfc_on">El NFC ta habilitáu</string>
   <!-- Recents: The empty recents string. [CHAR LIMIT=NONE] -->
   <string name="recents_empty_message">Nun hai elementos recientes</string>
   <!-- Recents: The empty recents string after dismissing all tasks. [CHAR LIMIT=NONE] -->
@@ -516,8 +524,11 @@
   <!-- Interruption level: Priority. [CHAR LIMIT=40] -->
   <!-- Interruption level: Alarms only. [CHAR LIMIT=40] -->
   <!-- Interruption level: None.  Optimized for narrow two-line display. [CHAR LIMIT=40] -->
+  <string name="interruption_level_none_twoline">Silenciu\ntotal</string>
   <!-- Interruption level: Priority.  Optimized for narrow two-line display. [CHAR LIMIT=40] -->
+  <string name="interruption_level_priority_twoline">Namái\nprioridá</string>
   <!-- Interruption level: Alarms only.  Optimized for narrow two-line display. [CHAR LIMIT=40] -->
+  <string name="interruption_level_alarms_twoline">Namái\nalarmes</string>
   <!-- Indication on the keyguard that is shown when the device is charging. [CHAR LIMIT=40]-->
   <!-- Indication on the keyguard that is shown when the device is charging rapidly. Should match keyguard_plugged_in_charging_fast [CHAR LIMIT=40]-->
   <!-- Indication on the keyguard that is shown when the device is charging slowly. Should match keyguard_plugged_in_charging_slowly [CHAR LIMIT=40]-->
@@ -590,9 +601,16 @@
   <string name="monitoring_title_profile_owned">Monitorización de perfiles</string>
   <!-- Monitoring dialog title for normal devices  [CHAR LIMIT=35]-->
   <string name="monitoring_title">Monitorización de rede</string>
+  <!-- Monitoring dialog subtitle for the section describing VPN [CHAR LIMIT=35]-->
+  <string name="monitoring_subtitle_vpn">VPN</string>
+  <!-- Monitoring dialog subtitle for the section describing network logging [CHAR LIMIT=35]-->
   <!-- Monitoring dialog disable vpn button [CHAR LIMIT=30] -->
   <!-- Monitoring dialog disconnect vpn button [CHAR LIMIT=30] -->
   <!-- Monitoring dialog device owner body text [CHAR LIMIT=400] -->
+  <!-- Monitoring dialog: Part of text body explaining that a VPN is connected and what it can do, for devices managed by a Device Owner app [CHAR LIMIT=130] -->
+  <!-- Monitoring dialog: Space that separates the VPN body text and the "Open VPN Settings" link that follows it. [CHAR LIMIT=5] -->
+  <!-- Monitoring dialog: Link to open the VPN settings page [CHAR LIMIT=60] -->
+  <!-- Monitoring dialog: Network logging text [CHAR LIMIT=400] -->
   <!-- Monitoring dialog VPN text [CHAR LIMIT=400] -->
   <!-- Monitoring dialog VPN with device owner text [CHAR LIMIT=400] -->
   <!-- Monitoring dialog VPN with profile owner text [CHAR LIMIT=400] -->
@@ -617,6 +635,7 @@
   <!-- Content description for accessibility (not shown on the screen): volume dialog expand button. [CHAR LIMIT=NONE] -->
   <!-- Content description for accessibility (not shown on the screen): volume dialog collapse button. [CHAR LIMIT=NONE] -->
   <!-- Screen pinning dialog title. -->
+  <!-- Screen pinning dialog description. -->
   <!-- Screen pinning dialog description. -->
   <!-- Screen pinning positive response. -->
   <string name="screen_pinning_positive">Coyío</string>
@@ -690,6 +709,9 @@
   <!-- Name of a quick settings tile controlled by broadcast -->
   <string name="broadcast_tile">Caxella de tresmisión</string>
   <!-- For preview release. DO NOT TRANSLATE -->
+  <string name="regrettable_lack_of_easter_egg">
+        ¯\\_(ツ)_/¯
+    </string>
   <!-- Warning text when an alarm might be silenced by Do Not Disturb [CHAR LIMIT=NONE] -->
   <!-- Warning text when an alarm might be silenced by Do Not Disturb due to a time-based condition [CHAR LIMIT=NONE] -->
   <!-- Alarm template for near alarms [CHAR LIMIT=25] -->
@@ -937,4 +959,7 @@
   <!-- Label that replaces other notification controls when the notification is from the system
          and cannot be silenced (see @string/show_silently) or blocked (see @string/block) -->
   <string name="cant_silence_or_block">Los avisos nun puen silenciase o bloquiase</string>
+  <!-- Title for notification (and dialog) that user's phone has reached a certain temperature and may start to slow down in order to cool down. [CHAR LIMIT=30] -->
+  <!-- Message body for notification that user's phone has reached a certain temperature and may start to slow down in order to cool down. [CHAR LIMIT=100] -->
+  <!-- Text body for dialog alerting user that their phone has reached a certain temperature and may start to slow down in order to cool down. [CHAR LIMIT=300] -->
 </resources>

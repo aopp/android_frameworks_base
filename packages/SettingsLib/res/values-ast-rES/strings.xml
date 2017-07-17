@@ -47,6 +47,7 @@
   <!-- Do not translate.  Concise terminology for wifi with 802.1x EAP security -->
   <string name="wifi_security_eap">802.1x EAP</string>
   <!-- Do not translate.  Concise terminology for Passpoint network -->
+  <string name="wifi_security_passpoint">Passpoint</string>
   <!-- Summary for the remembered network. -->
   <!-- Status for networks disabled for unknown reason -->
   <!-- Status for networked disabled from a DNS or DHCP failure -->
@@ -141,6 +142,7 @@
   <!-- Tethering controls, item title to go into the tethering settings when only Wifi tethering is available [CHAR LIMIT=25]-->
   <!-- Tethering controls, item title to go into the tethering settings when only Bluetooth tethering is available [CHAR LIMIT=25]-->
   <!-- Tethering controls, item title to go into the tethering settings when USB and Bluetooth tethering are available [CHAR LIMIT=25]-->
+  <string name="tether_settings_title_usb_bluetooth">Tethering</string>
   <!-- Tethering controls, item title to go into the tethering settings when USB, Bluetooth and Wifi tethering are available [CHAR LIMIT=25]-->
   <!-- Title for a work profile. [CHAR LIMIT=25] -->
   <!-- Title for Guest user [CHAR LIMIT=35] -->
@@ -309,6 +311,7 @@
   <!-- HDCP checking title, used for debug purposes only. [CHAR LIMIT=25] -->
   <!-- HDCP checking dialog title, used for debug purposes only. [CHAR LIMIT=25] -->
   <!-- Preference category for app debugging development settings. [CHAR LIMIT=50] -->
+  <string name="debug_debugging_category">Depuración</string>
   <!-- UI debug setting: select current app to debug [CHAR LIMIT=50] -->
   <!-- UI debug setting: no debug app has been set [CHAR LIMIT=50] -->
   <!-- UI debug setting: debug app has been set [CHAR LIMIT=50] -->
@@ -327,6 +330,7 @@
   <!-- UI debug setting: always enable strict mode? [CHAR LIMIT=25] -->
   <!-- UI debug setting: show strict mode summary [CHAR LIMIT=50] -->
   <!-- UI debug setting: show pointer location? [CHAR LIMIT=25] -->
+  <string name="pointer_location">Allugamientu del punteru</string>
   <!-- UI debug setting: show pointer location summary [CHAR LIMIT=50] -->
   <!-- UI debug setting: show touches? [CHAR LIMIT=25] -->
   <string name="show_touches">Amosar calcos</string>
@@ -392,6 +396,11 @@
     <item>Estándar</item>
   </string-array>
   <!-- Description of each color mode for the display. [CHAR LIMIT=NONE] -->
+  <string-array name="color_mode_descriptions">
+    <item>Enhanced colors</item>
+    <item>Natural colors as seen by the eye</item>
+    <item>Colores optimizaes pal conteníu dixital</item>
+  </string-array>
   <!-- Settings item title for inactive apps [CHAR LIMIT=35] -->
   <string name="inactive_apps_title">Aplicaciones inactives</string>
   <!-- Settings item summary for inactive app [CHAR LIMIT=100] -->
@@ -402,7 +411,9 @@
   <!-- Developer settings: enable WebView multiprocess name [CHAR LIMIT=50] -->
   <!-- Developer settings: enable WebView multiprocess summary [CHAR LIMIT=60] -->
   <!-- Developer settings: select WebView provider title [CHAR LIMIT=30] -->
+  <string name="select_webview_provider_title">Implementación de WebView</string>
   <!-- Developer settings: select WebView provider dialog title [CHAR LIMIT=30] -->
+  <string name="select_webview_provider_dialog_title">Afitar la so implementación</string>
   <!-- Developer settings: text for the WebView provider selection toast shown if an invalid provider was chosen (i.e. the setting list was stale). [CHAR LIMIT=NONE] -->
   <!-- Developer settings screen, convert userdata to file encryption option name -->
   <!-- Developer settings screen, convert userdata to file encryption summary when option is available -->
@@ -507,4 +518,7 @@
   <string name="help_feedback_label">Ayuda y feedback</string>
   <!-- Content description for drawer menu button [CHAR_LIMIT=30]-->
   <string name="content_description_menu_button">Menú</string>
+  <!-- Label for carrier demo mode factory reset confirmation dialog. [CHAR LIMIT=40] -->
+  <!-- Label for positive button on carrier demo  mode factory reset confirmation dialog [CHAR LIMIT=40] -->
+  <!-- Title for carrier demo mode factory reset confirmation dialog. [CHAR LIMIT=40] -->
 </resources>

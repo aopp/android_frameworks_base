@@ -33,7 +33,6 @@
          Displayed in one line in a large font.  -->
   <!-- Instructions telling the user that they entered the wrong pin while trying
          to unlock the keyguard.  Displayed in one line in a large font.  -->
-  <!-- Shown in the lock screen when there is SIM card IO error. -->
   <!-- When the lock screen is showing, the phone is plugged in and the battery is fully
          charged, say that it is charged. -->
   <!-- When the lock screen is showing and the phone plugged in, and the battery
@@ -55,7 +54,9 @@
   <!-- Shown when SIM card is permanently disabled. -->
   <!-- Shown to inform the user to SIM card is permanently disabled. -->
   <!-- Shown to tell the user that their SIM is locked and they must unlock it. -->
+  <string name="keyguard_sim_locked_message">Tarxeta SIM bloquiada.</string>
   <!-- When the user enters a wrong sim pin too many times, it becomes PUK locked (Pin Unlock Kode) -->
+  <string name="keyguard_sim_puk_locked_message">Tarxeta SIM bloquiada col PUK.</string>
   <!-- For the unlock screen, When the user enters a sim unlock code, it takes a little while to check
          whether it is valid, and to unlock the sim if it is valid.  we display a
          progress dialog in the meantime.  this is the emssage. -->
@@ -152,6 +153,4 @@
   <!-- An explanation text that the pin needs to be entered since it hasn't been entered in a while. [CHAR LIMIT=80]-->
   <!-- An explanation text that the password needs to be entered since it hasn't been entered in a while. [CHAR LIMIT=80]-->
   <!-- Fingerprint hint message when finger was not recognized.-->
-  <!-- Instructions telling the user remaining times when enter SIM PIN view.  -->
-  <!-- Instructions telling the user remaining times when enter SIM PUK view.  -->
 </resources>
